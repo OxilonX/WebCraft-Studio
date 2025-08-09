@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <title>WebCraft Studio</title>
+  </head>
+  <body>
+    <header
+      class="container mx-auto flex items-center justify-between p-6 bg-slate-50 xl:px-10"
+    >
+      <a href="#" class="logo text-3xl font-bold text-slate-950"
+        >WebCraft Studio</a
+      >
+      <nav class="hidden flex items-center space-x-6 md:flex md:block">
+        <a
+          href="#"
+          class="text-slate-900 font-medium text-sm capitalize transition-all duration-300 hover:text-green-400"
+          >home</a
+        >
+        <a
+          href="#"
+          class="text-slate-900 font-medium text-sm capitalize transition-all duration-300 hover:text-green-400"
+          >services</a
+        >
+        <a
+          href="#"
+          class="text-slate-900 font-medium text-sm capitalize transition-all duration-300 hover:text-green-400"
+          >blog</a
+        >
+        <a
+          href="#"
+          class="text-slate-900 font-medium text-sm capitalize transition-all duration-300 hover:text-green-400"
+          >testimonials</a
+        >
+        <a
+          href="#"
+          class="text-white bg-green-400 py-2 px-4 rounded-full font-medium text-sm capitalize transition-all duration-300 hover:text-black"
+          >reach us</a
+        >
+      </nav>
+    </header>
+    <main>
+      <section
+        class="container flex flex-col items-center justify-between gap-8 mx-auto my-24 mb-36 px-6 xl:px-10 md:flex-row sm:px-0"
+        id="hero"
+      >
+        <div class="flex flex-col justify-center w-full gap-3 sm:w-7/12">
+          <h2
+            class="text-sm font-bold leading-tight text-slate-900 text-center md:text-3xl sm:text-2xl sm:text-left"
+          >
+            We Build Exceptional Digital Experiences that Transform Ideas into
+            Masterpieces, Captivating Audiences Worldwide
+          </h2>
+          <p
+            class="hidden text-slate-700 max-w-md text-sm leading-tight font-normal w-5/6 md:text-sm sm:block"
+          >
+            At WebCraft Studio, we don't just build websites, we craft
+            experiences that resonate. Our team of innovative designers and
+            developers collaborates to bring your vision to life, ensuring your
+            brand stands out in the digital landscape. Let's create something
+            extraordinary together.
+          </p>
+          <button
+            class="capitalize self-center transition-all py-2.5 px-4 w-fit text-xs font-medium my-2 text-white bg-green-400 rounded-full hover:text-black md:self-start sm:text-sm sm:self-start"
+          >
+            reach us now!
+          </button>
+        </div>
+        <div>
+          <img class="w-72 md:w-96" src="images/example-17.svg" alt="" />
+        </div>
+      </section>
+      <section class="container mx-auto xl:px-3" id="services">
+        <h2 class="text-center text-4xl text-slate-900 font-bold capitalize">
+          our services
+        </h2>
+        <p
+          class="text-center text-xs text-center text-slate-700 capitalize mx-auto px-4 my-4 mb-10 font-normal md:text-center sm:text-sm sm:w-2/3"
+        >
+          Explore our services designed to enhance your online presence, from
+          custom websites to effective SEO strategies. Let us help you achieve
+          your digital goals and stand out in the marketplace
+        </p>
+        <ul
+          class="grid grid-cols-1 items-start gap-4 p-4 md:grid-cols-2 md:gap-6"
+        >
+          <li
+            class="flex flex-col rounded-lg bg-gray-100 border border-slate-950 p-5 items-center gap-4"
+            style="height: 400px"
+          >
+            <img
+              class="py-4"
+              src="images/undraw_building-websites_k2zp.svg"
+              alt="website design"
+              style="width: 150px; height: 155px"
+            />
+            <h3
+              class="text-xl text-center text-slate-900 font-bold sm:text-left sm:text-2xl md:text-3xl"
+            >
+              Custom Website Design
+            </h3>
+            <p
+              class="text-xs text-slate-900 text-cente md:text-base md:text-left sm:text-sm"
+            >
+              We create stunning, bespoke websites tailored to reflect your
+              brand's unique identity. Our designs prioritize user experience,
+              ensuring that visitors are not only captivated at first glance but
+              also encouraged to explore further, leading to higher engagement
+              and conversion rates.
+            </p>
+          </li>
+          <li
+            class="flex flex-col rounded-lg bg-gray-100 border border-slate-950 h-96 p-5 items-center gap-4"
+            style="height: 400px"
+          >
+            <img
+              class="py-4"
+              src="images/undraw_real-time-sync_ro77.svg"
+              alt=""
+              style="width: 150px; height: 155px"
+            />
+            <h3
+              class="text-xl text-center text-slate-900 font-bold sm:text-left sm:text-2xl md:text-3xl"
+            >
+              Responsive Development
+            </h3>
+            <p
+              class="text-xs text-slate-900 text-cente md:text-base md:text-left sm:text-sm"
+            >
+              In today's multi-device world, we ensure that your website
+              delivers a seamless experience across all platforms. Our
+              responsive development practices guarantee that your site
+              functions flawlessly on desktops, tablets, and smartphones,
+              providing users with consistent access to your services anytime,
+              anywhere.
+            </p>
+          </li>
+          <li
+            class="flex flex-col rounded-lg bg-gray-100 border border-slate-950 h-96 p-5 items-center gap-4"
+            style="height: 400px"
+          >
+            <img
+              class="py-4"
+              src="images/undraw_search-engines_k649.svg"
+              alt=""
+              style="width: 150px; height: 155px"
+            />
+            <h3
+              class="text-xl text-center text-slate-900 font-bold sm:text-left sm:text-2xl md:text-3xl"
+            >
+              SEO Optimization
+            </h3>
+            <p
+              class="text-xs text-slate-900 text-cente md:text-base md:text-left sm:text-sm"
+            >
+              We understand that visibility is key to online success. Our SEO
+              strategies are tailored to improve your search engine rankings,
+              attract more visitors, and increase organic traffic. By employing
+              the latest techniques and best practices, we help you reach your
+              target audience effectively and sustainably.
+            </p>
+          </li>
+          <li
+            class="flex flex-col rounded-lg bg-gray-100 border border-slate-950 h-96 p-5 items-center gap-4"
+            style="height: 400px"
+          >
+            <img
+              class="py-4"
+              src="images/undraw_business-decisions_3x2a.svg"
+              alt=""
+              style="width: 150px; height: 155px"
+            />
+            <h3
+              class="text-xl text-center text-slate-900 font-bold sm:text-left sm:text-2xl md:text-3xl"
+            >
+              Brand Strategy
+            </h3>
+            <p
+              class="text-xs text-slate-900 text-cente md:text-base md:text-left sm:text-sm"
+            >
+              Crafting a cohesive brand narrative is essential for standing out
+              in a crowded marketplace. Our brand strategy services involve
+              in-depth analysis and creative brainstorming to develop a
+              compelling story that resonates with your audience, building trust
+              and loyalty over time.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
