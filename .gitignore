@@ -2,7 +2,6 @@
 node_modules/
 
 # Ignore build outputs
-
 styles/output.css
 
 
